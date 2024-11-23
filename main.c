@@ -7,7 +7,7 @@ int main() {
     int dobroNumero;
     int numChar;
 
-    // Entrada do nome
+    // Entrada nome
     printf("Digite o seu nome: ");
     scanf("%s", nome);
     numChar = strlen(nome);

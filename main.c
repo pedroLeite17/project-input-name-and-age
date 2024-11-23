@@ -18,7 +18,8 @@ int main() {
     // Entrada da palavra
     printf("Digite uma palavra: ");
     scanf("%s", palavra);
-    // Exibição personalizada
+
+
     printf("Ola, %s! O teu nome e composto por %d caracteres.\n", nome, numChar);
     printf("Ola, %s! O numero que escolheste e %d.\n", nome, numero);
     printf("Ola, %s! O dobro do numero que escolheste e %d.\n", nome, dobroNumero);

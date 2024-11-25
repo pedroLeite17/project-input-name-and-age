@@ -8,6 +8,7 @@ int main() {
     int dobroNumero;
     int numChar;
 
+    //introdução de funçãpo para calcular o dobro  de um inteiro
     int dobleInt(int numero){
         dobroNumero= numero*2;
     }

@@ -4,12 +4,15 @@ int main() {
 
     char nome [50];
     int numero;
+    int *ptrInt=&numero;
+
+
     char palavra[50];
     int dobroNumero;
     int numChar;
 
-    //introdução de funçãpo para calcular o dobro  de um inteiro
-    int dobleInt(int numero){
+    //introdução de função para calcular o dobro  de um inteiro
+    int dobleInt(int *ptrNum){
         dobroNumero= numero*2;
     }
 
